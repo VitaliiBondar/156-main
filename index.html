@@ -7,6 +7,10 @@
     <title>Механізована бригада ЗСУ</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -14,12 +18,14 @@
     <header>
         <nav>
             <!-- <a href="#top">
-                <img width="160" height="190" src="logo.jpg" alt=""> </a> -->
+                <img width="84" height="100" src="logo.jpg" alt=""> </a> -->
             <ul>
-                <li><a href="#home">Головна</a></li>
                 <li><a href="#about">Про нас</a></li>
+                <!-- <a href="#top">
+                    <img width="160" height="190" src="logo-1.png" alt=""></a> -->
                 <!-- <li><a href="#achievements">Наші досягнення</a></li> -->
                 <li><a href="#recruiting">Доєднуйся</a></li>
+                <li><a href="#question">Популярні запитання</a></li>
                 <li><a href="#contact">Контакти</a></li>
             </ul>
         </nav>
@@ -28,9 +34,7 @@
     <!-- Головна сторінка -->
     <section id="home" class="hero">
         <div class="hero-text">
-            <h1>Вітаємо в родині 156-ї окремої механізованої бригади!</h1>
 
-            <p>Приєднуйтеся до нашої команди військових захисників! Перейти до розділу “Доєднуйся”.</p>
         </div>
     </section>
 
@@ -59,40 +63,46 @@
         <h2>Чому саме ми ?</h2>
         <!-- <p>Механізована бригада брала участь у численних операціях, демонструючи відмінну професійну підготовку та
             здатність ефективно діяти у бойових умовах.</p> -->
-        <ul>
-            <li>Наша бригада створюється на основі досвіду командирів, які мають значний бойовий досвід. Їхні знання
-                та вміння
-                стануть міцним фундаментом для навчання кожного нового бійця.</li>
-            <li>Ми ставимо безпеку військовослужбовців на перше місце. Кожен підрозділ діє з максимальною ефективністю,
-                уникаючи
-                необґрунтованих ризиків.</li>
-            <li>Формуючись у стабільну й професійну структуру, ми створюємо надійну опору для своїх військовослужбовців.
-            </li>
-            <li>Наше головне завдання — захист і утримання важливих рубежів. Однак ми завжди готові перейти до активних
-                дій, коли це
-                буде потрібно.</li>
-            <li>Ми активно впроваджуємо сучасні технології у військову справу: від інноваційних дронів до потужного
-                озброєння.</li>
-            <li>Кожен військовослужбовець нашої бригади проходить обов’язкову базову підготовку в навчальному центрі
-                протягом місяця, що
-                гарантує надійний старт для новачків.</li>
-            <li>За потреби воїни отримують спеціалізоване навчання залежно від військово-облікової спеціальності, що
-                дозволяє ефективно
-                виконувати свої обов’язки.</li>
-            <li>Ми прагнемо згуртувати колектив, де кожен відчуває підтримку й довіру, адже командний дух — запорука
-                успіху.</li>
-            <li>Бригада пропонує перспективи для кар’єрного зростання, адже кожен заслуговує на визнання своїх
-                досягнень.</li>
-            <li>Ми воюємо заради майбутнього: наших рідних, нашої країни та наших цінностей. Разом ми створюємо сильну і
-                незалежну
-                Україну.</li>
-        </ul>
+        <div class="wrapper">
+            <ol role="list">
+                <li>Наша бригада створюється на основі досвіду командирів, які мають значний бойовий досвід. Їхні знання
+                    та вміння
+                    стануть міцним фундаментом для навчання кожного нового бійця.</li>
+                <li>Ми ставимо безпеку військовослужбовців на перше місце. Кожен підрозділ діє з максимальною
+                    ефективністю,
+                    уникаючи
+                    необґрунтованих ризиків.</li>
+                <li>Формуючись у стабільну й професійну структуру, ми створюємо надійну опору для своїх
+                    військовослужбовців.
+                </li>
+                <li>Наше головне завдання — захист і утримання важливих рубежів. Однак ми завжди готові перейти до
+                    активних
+                    дій, коли це
+                    буде потрібно.</li>
+                <li>Ми активно впроваджуємо сучасні технології у військову справу: від інноваційних дронів до потужного
+                    озброєння.</li>
+                <li>Кожен військовослужбовець нашої бригади проходить обов’язкову базову підготовку в навчальному центрі
+                    протягом місяця, що
+                    гарантує надійний старт для новачків.</li>
+                <li>За потреби воїни отримують спеціалізоване навчання залежно від військово-облікової спеціальності, що
+                    дозволяє ефективно
+                    виконувати свої обов’язки.</li>
+                <li>Ми прагнемо згуртувати колектив, де кожен відчуває підтримку й довіру, адже командний дух — запорука
+                    успіху.</li>
+                <li>Бригада пропонує перспективи для кар’єрного зростання, адже кожен заслуговує на визнання своїх
+                    досягнень.</li>
+                <li>Ми воюємо заради майбутнього: наших рідних, нашої країни та наших цінностей. Разом ми створюємо
+                    сильну і
+                    незалежну
+                    Україну.</li>
+            </ol>
+        </div>
     </section>
 
     <!-- Рекрутинг -->
     <section id="recruiting" class="section">
         <h2>Доєднуйся</h2>
-        <p>Ви хочете приєднатися до нашої бригади? Заповніть форму нижче і станьте частиною національної армії!</p>
+        <p>Ви хочете приєднатися до нашої бригади? Заповніть форму нижче і станьте частиною ЗСУ!</p>
         <form action="/submit-form" method="post">
             <input type="text" name="full_name" placeholder="Ваше ім'я" required>
             <input type="email" name="email" placeholder="Ваша електронна пошта" required>
@@ -102,16 +112,165 @@
     </section>
 
     <!-- Контакти -->
-    <section id="contact" class="section">
+    <!-- <section id="contact" class="section">
         <h2>Контакти</h2>
         <p>Адреса: м.Хуст, Закарпатська область, Україна</p>
         <p>Телефон: +380 (97) 2399000</p>
         <i class="material-icons facebook">facebook</i>
+    </section> -->
+    <section class="section question" id="question">
+        <h2>Популярні запитання</h2>
+        <div class="container">
+            <div class="accordion">
+
+                <div class="accordion-item" id="question2">
+                    <a class="accordion-link" href="#question2">
+                        <div class="flex">
+                            <h3>З якого віку можна потрапити до 156 ОМБр бригади?</h3>
+                        </div>
+                        <i class="icon ion-md-arrow-forward"></i>
+                        <i class="icon ion-md-arrow-down"></i>
+                    </a>
+                    <div class="answer">
+                        <p>Якщо тобі від 18 до 26 років, ви зможете проходити службу за контрактом. Якщо тобі від 27 до
+                            50 років, ви зможете
+                            служити як мобілізований</p>
+                    </div>
+                    <hr>
+                </div>
+                <div class="accordion-item" id="question22">
+                    <a class="accordion-link" href="#question22">
+                        <div class="flex">
+                            <h3>Яке грошове забезпечення в бригаді?</h3>
+                        </div>
+                        <i class="icon ion-md-arrow-forward"></i>
+                        <i class="icon ion-md-arrow-down"></i>
+                    </a>
+                    <div class="answer">
+                        <p>Усі наші військовослужбовці отримують грошове забезпечення розміром 20-35 тис. грн (залежно
+                            від звання,
+                            посади й вислуги
+                            років), а також додаткову винагороду 30-100 тис. грн на місяць під час виконання завдань у
+                            районах
+                            бойових дій
+                            (конкретний розмір залежить від характеру бойових завдань і близькості до лінії зіткнення).
+                        </p>
+                    </div>
+                    <hr>
+                </div>
+                <div class="accordion-item" id="question1">
+                    <a class="accordion-link" href="#question1">
+                        <div class="flex">
+                            <h3>Скільки проходить навчання?</h3>
+                        </div>
+                        <i class="icon ion-md-arrow-forward"></i>
+                        <i class="icon ion-md-arrow-down"></i>
+                    </a>
+                    <div class="answer">
+                        <p> Базова загально військова підготовка (БЗВП) займає від 4 до 8 тижнів залежно від
+                            обраної спеціальності. В нашій бригаді на тебе чекає додатковий етап підготовки під орудою
+                            досвідчених інструкторів. Він
+                            триватиме ще близько місяця. </p>
+                    </div>
+                    <hr>
+                </div>
+                <div class="accordion-item" id="question3">
+                    <a class="accordion-link" href="#question3">
+                        <div class="flex">
+                            <h3>Які документи мені потрібно мати з собою?</h3>
+                        </div>
+                        <i class="icon ion-md-arrow-forward"></i>
+                        <i class="icon ion-md-arrow-down"></i>
+                    </a>
+                    <div class="answer">
+                        <p>Для першої співбесіди достатньо заповнити анкету й надати: – паспорт; – ідентифікаційний код;
+                            – військовий квиток або
+                            приписне (якщо є); – документи про освіту (диплом/атестат).</p>
+                    </div>
+                    <hr>
+                </div>
+                <div class="accordion-item" id="question33">
+                    <a class="accordion-link" href="#question33">
+                        <div class="flex">
+                            <h3>Ви передаєте мої дані в ТЦК?</h3>
+                        </div>
+                        <i class="icon ion-md-arrow-forward"></i>
+                        <i class="icon ion-md-arrow-down"></i>
+                    </a>
+                    <div class="answer">
+                        <p>Ми гарантуємо, що всі ваші дані, які ви надали в електронній формі та під час співбесіди, не
+                            будуть передані третім
+                            особам/організаціям, в тому числі ТЦК.</p>
+                    </div>
+                    <hr>
+                </div>
+                <div class="accordion-item" id="question4">
+                    <a class="accordion-link" href="#question4">
+                        <div>
+                            <h3>Які посади в бригаді зараз мають найбільший попит?</h3>
+                        </div>
+                        <i class="icon ion-md-arrow-forward"></i>
+                        <i class="icon ion-md-arrow-down"></i>
+                    </a>
+                    <div class="answer">
+                        <p>Штурмовики, старші стрільці, номери обслуг, гранатометники, навідники (кулеметники), медики,
+                            оператори дронів</p>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Підвал -->
-    <footer>
-        <p>&copy; 2024 156 окрема механізована бригада ЗСУ.</p>
+    <footer class="footer-distributed" id="contact">
+
+        <div class="footer-left">
+
+            <a href="#top">
+                <img width="95" height="120" src="logo-1.png" alt=""> </a>
+            <!-- <p class="footer-company-name">156 ОМБр</p> -->
+            <p class="footer-links">
+                <a href="#" class="link-1">Головна</a>
+                <a href="#about">Про нас</a>
+                <a href="№recruiting">Доєднуйся</a>
+            </p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>вул. Перемоги 12</span> м.Хуст, Закарпатська область, Україна</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+380972399000</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">156ombr@ukr.net</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>156 Окрема механізована бригада</span>
+                Долучайтеся до нас у соцмережах!
+            </p>
+
+            <div class="footer-icons">
+                <a href="https://facebook.com/156ombr"><i class="fa fa-facebook"></i></a>
+                <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+                <a href="https://instagram.com/156_ombr"><i class="fa fa-instagram"></i></a>
+            </div>
+
+        </div>
+
     </footer>
 </body>
 
