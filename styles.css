@@ -431,6 +431,12 @@ body {
         opacity: 0;
         animation: fadeIn 10s forwards; /* Анімація появи */
     }
+    .wrapper li::before {
+        font-size: 1.4rem;
+    }
+    .wrapper li {
+        font-size: 13px;
+    }
 }
 
 /* ques */
@@ -503,7 +509,7 @@ body {
 }
 
 .accordion-item:target .answer {
-    max-height: 16rem;
+    max-height: 24rem;
 }
 
 .accordion-item:target .accordion-link .ion-md-arrow-forward {
